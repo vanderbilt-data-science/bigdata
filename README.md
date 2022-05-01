@@ -20,10 +20,15 @@ Our data comes from a [Kaggle competition](https://www.kaggle.com/datasets/cynth
 hadoop fs -moveFromLocal /home/g593697882/archive hdfs://cluster-bigdata1-m/user/root/archive
 ```
 
-And also upload all 12 dataset to your Google drive.
+**Upload all 12 dataset to your Google drive.**
 
 # Run the code on two the platforms
 
+## On Google Cloud
+
 For `01-EDA.ipynb`, `02-recommender-system.ipynb`, `03-cluster-product-title.ipynb`, `04-lsh-product-info.ipynb`, these four python jyputer notebooks should be ran on the **Google Gloud** seperately. In the Google Cloud, we used Pyspark which is installed by the Cloud, we don't need to install any packages by ourselves.
 
+***
+
+## On Google Colab
 `05-sentiment-analysis.ipynb` and `06-fine-tune-BERT-on-our-dataset.ipynb` should be ran on the google colab. All the needed packages will be installed once you ran each cell from the beginning because installing codes are included in the beginning.
