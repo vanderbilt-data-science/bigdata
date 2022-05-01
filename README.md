@@ -1,6 +1,6 @@
 # Amazon Recommendation System
 
-> Li Yuan and Matthew Flaherty
+**Author: Li Yuan and Matthew Flaherty**
 
 # Introduction
 
@@ -16,7 +16,7 @@ Our data comes from a [Kaggle competition](https://www.kaggle.com/datasets/cynth
 ![](img/1.png)
 2. The second step is transfer all the dataset to Hadoop file system on the Cloud
 ```
-hadoop fs -moveFromLocal source destination
+hadoop fs -moveFromLocal /home/g593697882/archive hdfs://cluster-bigdata1-m/user/root/archive
 ```
 
 And also upload all 12 dataset to your Google drive.
