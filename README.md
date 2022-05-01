@@ -15,7 +15,7 @@ Our data comes from a [Kaggle competition](https://www.kaggle.com/datasets/cynth
 
 1. The first step is to upload the 12 dataset (21.78 GB) to Google Cloud drive as following:
 ![](img/1.png)
-2. The second step is transfer all the dataset to Hadoop file system on the Cloud
+2. The second step is transfer all the dataset to Hadoop file system on the Cloud by typing the following code into your cloud terminal
 ```
 hadoop fs -moveFromLocal /home/g593697882/archive hdfs://cluster-bigdata1-m/user/root/archive
 ```
