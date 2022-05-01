@@ -21,7 +21,7 @@ hadoop fs -moveFromLocal source destination
 
 And also upload all 12 dataset to your Google drive.
 
-# Run the code the platform
+# Run the code on two the platforms
 
 For `01-EDA.ipynb`, `02-recommender-system.ipynb`, `03-cluster-product-title.ipynb`, `04-lsh-product-info.ipynb`, these four python jyputer notebooks should be ran on the **Google Gloud** seperately. In the Google Cloud, we used Pyspark which is installed by the Cloud, we don't need to install any packages by ourselves.
 
