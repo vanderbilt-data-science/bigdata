@@ -1,6 +1,7 @@
 # Amazon Recommendation System
 
 **Author: Li Yuan and Matthew Flaherty**
+
 **Date: 2022/4/30**
 
 # Visit our fine-tuned Hugging Face Model Card: 
